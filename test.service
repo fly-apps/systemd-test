@@ -1,0 +1,9 @@
+[Unit]
+Description=Test Service
+
+[Service]
+ExecStart=/usr/bin/sleep 60
+Restart=always
+
+[Install]
+WantedBy=default.target
